@@ -2,10 +2,10 @@
 
 main()
 {
-    int t; scanf("%d",&t);
+    double t; scanf("%f",&t);
     while(t--)
     {
     	long int a,b;
-    	scanf("%ld %ld",&a,&b); printf("%ld\n",a+b);
+    	scanf("%f %f",&a,&b); printf("%f\n",a+b);
     }
 }
